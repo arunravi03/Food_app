@@ -1,0 +1,29 @@
+{
+    "restaurants":[
+        {
+            "name":"Anna poorna",
+            "type":"pure veg",
+            "location":"rs puram"
+        },
+        {
+            "name":"Subway KFC",
+            "type":"American fast food",
+            "location":"brooke fields"
+        },
+        {
+            "name":"Chettinad",
+            "type":"veg and non-veg",
+            "location":"gn mills"
+        },
+        {
+            "name":"Hyderabad biryani",
+            "type":"North Indian",
+            "location":"marahalli"
+        },
+        {
+            "name":"Sri Krishna Sweets",
+            "type":"gulab jamaun",
+            "location":"brooke fields"
+        }
+    ]
+}

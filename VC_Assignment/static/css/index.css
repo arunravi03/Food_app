@@ -1,0 +1,146 @@
+* {
+    box-sizing: border-box;
+}
+body{
+    margin:0 ;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+}
+
+.header {
+    overflow: hidden;
+    background-color: #fff;
+    /* padding: 20px 10px; */
+    padding-top: 20px;
+    letter-spacing: 0.6px;
+}
+
+.header a {
+    float: left;
+    color: #000;
+    text-align: center;
+    padding: 12px;
+    text-decoration: none;
+    font-size: 18px;
+    line-height: 25px;
+    border-radius: 4px;
+    padding-right: 50px;
+}
+
+.header a.logo {
+    font-size: 15px;
+    font-weight: bold;
+    padding-left: 10%;
+}
+
+.span-head {
+    font-size: 15px;
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+.header a:hover {
+    background-color: lightgray;
+    color: black;
+}
+
+.header-right {
+    float: right;
+    padding-right: 20px;
+}
+
+@media screen and (max-width: 500px) {
+    .header a {
+        float: none;
+        display: block;
+        text-align: left;
+    }
+
+    .header-right {
+        float: none;
+    }
+    
+}
+
+
+
+.carousel {
+    margin: 20px;
+    
+}
+.carousel,.slide {
+    display: grid;
+    margin-top: 20px;
+    width: 100%;
+    /* grid-gap: 15px; */
+    grid-template: auto/ repeat(auto-fit, minmax(300px, 1fr));
+}
+.slide:hover {
+    transform: scale(1.1);
+}
+
+@media screen and (max-width: 500%) {
+    .slide img{
+        height: auto;
+    }
+    
+}
+
+.content{
+    margin: 20px;
+}
+.cards{
+    /* box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2); */
+    display: grid;
+    margin: 10px;
+    margin: auto;
+    text-align: left;
+    padding:10px;
+    grid-gap: 10px;
+    grid-template: auto/ repeat(auto-fit, minmax(300px, 1fr));
+
+}
+.card h3,p,a{
+    margin-left: 5px;
+}
+.cards a{
+    padding-bottom: 5px;
+}
+.rating{
+    background-color: yellowgreen;
+    width: 45px;
+    margin-left: 5px;
+}
+.rating i{
+    color: #000;
+}
+
+form.search input[type=text] {
+    margin-left: 20px;
+    margin-top: 20px;
+    padding: 10px;
+    font-size: 17px;
+    border: 1px solid grey;
+    float: left;
+    width: 30%;
+    background: #f1f1f1;
+}
+
+form.search button {
+    /* margin: 20px; */
+    margin-top: 20px;
+    float: left;
+    width: 10%;
+    padding: 10px;
+    background: #2196F3;
+    color: white;
+    font-size: 17px;
+    border: 1px solid grey;
+    border-left: none;
+    cursor: pointer;
+}
+
+form.search button:hover {
+    background: #0b7dda;
+}
